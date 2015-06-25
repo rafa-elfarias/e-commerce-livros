@@ -1,0 +1,64 @@
+#START:layout
+#START:main
+#START:cart
+#START:currency
+#START:checkout
+#START:flash
+en:
+
+#END:cart
+#END:checkout
+#END:flash
+#END:main
+#END:layout
+  number:
+    currency:
+      format:
+        unit:      "R$"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format:    "%n&nbsp;%u"
+#END:currency
+
+#START:layout
+  layouts:
+    application:
+      title:       "Prateleira de Livros Programática"
+      home:        "Início"
+      questions:   "Perguntas"
+      news:        "Novidades"
+      contact:     "Contato"
+#END:layout
+
+#START:cart
+  carts:
+    cart:
+      title:       "Seu Carrinho"
+      empty:       "Carrinho Vazio"
+      checkout:    "Checkout"
+#END:cart
+
+#START:main
+  store:
+    index:
+      title_html:  "Seu Catálogo Programático"
+      add_html:    "Adicionar ao Carrinho"
+#END:main
+
+#START:checkout
+  orders:
+    new:
+      legend:       "Por favor entre seus detalhes."
+    form:
+      name:         "Nome"
+      address_html: "Endereço"
+      email:        "E-mail"
+      pay_type:     "Pagar com"
+      pay_prompt_html: "Selecione seu método de pagamento"
+      submit:       "Finalizar compra"
+#END:checkout
+
+#START:flash
+  thanks:          "Obrigado pela sua compra."
+#END:flash
